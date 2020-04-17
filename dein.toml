@@ -1,0 +1,23 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+hook_add = '''
+let g:airline_theme='molokai'
+'''
+
+[[plugins]]
+repo = 'vimwiki/vimwiki'
+hook_add = '''
+:let g:vimwiki_list = [{'path':'~/projects/vimwiki/wiki', 'path_html':'~/projects/vimwiki/html'}]
+'''
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
