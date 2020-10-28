@@ -1,3 +1,4 @@
+set clipboard=unnamed
 if &compatible
   set nocompatible
 endif
